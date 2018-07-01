@@ -34,6 +34,14 @@ body{
         content: "3D Printed";
     }
 }
+@media (min-width: 570px)
+{
+    #content1Wrap{
+        display: flex;
+    }
+
+}
+
 @media (min-width: 600px)
 {
     h1::before
@@ -42,17 +50,14 @@ body{
     }
 }
 
-.content1Warp{
-    color: red;
-    display: flex;
+
+#left{
+    flex: 0 0 35%;
+    margin-right: 10px;
+    /*color: red;*/
 }
 
-.left{
-    flex: 0 0 65%;
-    color: red;
-}
-
-.right{
+#right{
     flex: 1;
 }
 /*Colors:
