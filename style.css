@@ -1,0 +1,64 @@
+body{
+     background-color: #F8F9FE;
+}
+.titleWrap{
+    background: #2828B9;
+    text-align: center;
+    /*margin: 10px;*/
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    border: white solid 2px;
+}
+
+
+.subTitle{
+    color: #007BFF;
+}
+.container{
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 30px;
+    background: #C7EDFF;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+@media (min-width: 400px)
+{
+    h1::before
+    {
+        content: "3D Printed";
+    }
+}
+@media (min-width: 600px)
+{
+    h1::before
+    {
+        content: "3D Printed 6-Axis";
+    }
+}
+
+.content1Warp{
+    color: red;
+    display: flex;
+}
+
+.left{
+    flex: 0 0 65%;
+    color: red;
+}
+
+.right{
+    flex: 1;
+}
+/*Colors:
+F8F9FE
+E5F8FF
+C7EDFF
+007BFF
+2828B9
+*/
