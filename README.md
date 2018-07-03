@@ -19,5 +19,7 @@ Contact: My email and some placeholer info. (Im not shareing any other personal 
 To Instructor - or whoever is grading:
 
 Comments for my css file dissapears when i compile the Sass file-
+
 I don't have too many relavant comments, I dont know how much I should have put but if I were to put more I would just be copying the doc
+
 Once it gets more complex I will comment more.
