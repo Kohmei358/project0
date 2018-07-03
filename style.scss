@@ -1,0 +1,80 @@
+/*Colors:
+F8F9FE - White
+E5F8FF
+C7EDFF - lightBlue
+007BFF - Bootstrap Blue
+2828B9 - DarkBlue
+Copied from: http://www.colourlovers.com/palette/109793/rain_rain_rain
+*/
+
+$white: #F8F9FE;
+$blue: #007BFF;
+$lightBlue: #C7EDFF;
+$darkBlue: #2828B9;
+
+body{
+     background-color: $white; //You only see this in the left and right - its not pure white though
+}
+.titleWrap{
+    background: $darkBlue;
+    text-align: center;
+    padding: 10px;
+    color: $white;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    border: $white solid 2px;
+    // This stuff is for the Title and Subtitle part
+}
+
+
+.subTitle{
+    color: $blue;
+    //Sets my name to blue
+}
+.container{
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 30px;
+    background: $lightBlue;
+    //The main box where everything is inside
+}
+
+.content{
+    margin-top: 20px;
+    //Making sapce between nav bar and content
+}
+
+@media (min-width: 400px)
+{
+    h1::before
+    {
+        content: "3D Printed"; //This message is followed by "Robotic Arm"
+    }
+}
+
+@media (min-width: 600px)
+{
+    h1::before
+    {
+        content: "3D Printed 6-Axis"; //This message is followed by "Robotic Arm"
+    }
+}
+
+#tableWrap{
+    background: $white; //CSS for table in Timeline Section
+    border: $lightBlue solid 2px;
+}
+
+.flexContainer
+{
+    display: flex;
+    flex-wrap: wrap; //This and...
+}
+
+.flexContainer > div
+{
+    margin: 5px; //...This is for setting the media to scale to fit as many as possible
+    border: black solid 1px;
+    width: 320px; //Still need to figure out what to do with veritcal content
+}
+
