@@ -60,6 +60,11 @@ body{
 #right{
     flex: 1;
 }
+
+#tableWrap{
+    background: #F8F9FE;
+    border: lightgrey solid 2px;
+}
 /*Colors:
 F8F9FE
 E5F8FF
