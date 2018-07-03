@@ -34,13 +34,6 @@ body{
         content: "3D Printed";
     }
 }
-@media (min-width: 570px)
-{
-    #content1Wrap{
-        display: flex;
-    }
-
-}
 
 @media (min-width: 600px)
 {
@@ -50,20 +43,22 @@ body{
     }
 }
 
-
-#left{
-    flex: 0 0 35%;
-    margin-right: 10px;
-    /*color: red;*/
-}
-
-#right{
-    flex: 1;
-}
-
 #tableWrap{
     background: #F8F9FE;
     border: lightgrey solid 2px;
+}
+
+.flexContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexContainer > div
+{
+    margin: 5px;
+    border: black solid 1px;
+    width: 320px;
 }
 /*Colors:
 F8F9FE
